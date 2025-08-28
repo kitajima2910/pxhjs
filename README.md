@@ -1,2 +1,2 @@
-# pxhjs
+# Thư viện PXHJS
 PXHJS
