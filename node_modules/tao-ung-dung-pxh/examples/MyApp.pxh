@@ -1,0 +1,14 @@
+hàm MyButton [] (
+  trả về (
+    nút ("I'm a button")
+  )
+)
+
+xuất hàm chính MyApp [] (
+  trả về (
+    bao lại (
+      chữ to ("Welcome to my app")
+      MyButton ()
+    )
+  )
+)
