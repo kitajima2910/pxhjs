@@ -42,3 +42,5 @@ window.PXH = {
         }
     },
 };
+
+PXH.loadFile("./App.pxh");
