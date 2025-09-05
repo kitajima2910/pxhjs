@@ -11,6 +11,7 @@
     "author": "",
     "license": "ISC",
     "type": "commonjs",
+    "dependencies": {},
     "devDependencies": {
         "live-server": "^1.2.2"
     }
