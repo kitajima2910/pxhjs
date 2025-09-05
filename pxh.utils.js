@@ -1,9 +1,9 @@
 window.PXH_UTILS = {
     extractContents: async (text) => {
         const PATTERN = {
-            html: /pxh\[html\]:\s*([\s\S]*?)(?=pxh\[|$)/,
-            css: /pxh\[css\]:\s*([\s\S]*?)(?=pxh\[|$)/,
-            js: /pxh\[js\]:\s*([\s\S]*?)(?=pxh\[|$)/,
+            html: /pxh\[html\]:\s*\{([\s\S]*?)\}(?=\s*pxh\[|\s*$)/,
+            css: /pxh\[css\]:\s*\{([\s\S]*?)\}(?=\s*pxh\[|\s*$)/,
+            js: /pxh\[js\]:\s*\{([\s\S]*?)\}(?=\s*pxh\[|\s*$)/,
         };
 
         return {
