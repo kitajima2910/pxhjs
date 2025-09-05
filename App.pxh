@@ -1,12 +1,12 @@
-pxh[làm.đẹp]:
+pxh[css]:
     p {
         color: hotpink;
     }
 
-pxh[làm.giao.diện]:
-    <p onclick="message()">Hello, World! - PXH</p>
+pxh[html]:
+    <p onclick="message()">Hello, World! - PXH 1</p>
 
-pxh[làm.hệ.thống]:
+pxh[js]:
     const message = () => {
         console.log('Hello, World! - PXH');
     }

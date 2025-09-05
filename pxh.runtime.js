@@ -8,6 +8,11 @@ window.PXH = {
         const pxhcss = content.pxh.css?.trim();
         const pxhjs = content.pxh.js?.trim();
 
+        console.log("text: ", text);
+        console.log("pxhhtml: ", pxhhtml);
+        console.log("pxhcss: ", pxhcss);
+        console.log("pxhjs: ", pxhjs);
+
         const elements = document.querySelectorAll(`[id^="pxh-"]`);
         elements.forEach((element) => {
             element.remove();
