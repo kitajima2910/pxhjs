@@ -11,13 +11,13 @@ const loadScriptsSequentially = async () => {
     for (const src of FILE_JS) {
         try {
             await loadScript(src);
-            console.log(`Loaded script: ${src}`);
+            // console.log(`Loaded script: ${src}`);
         } catch (error) {
             console.error(error);
         }
     }
 
-    console.log("All scripts loaded");
+    // console.log("All scripts loaded");
 };
 
 loadScriptsSequentially();
