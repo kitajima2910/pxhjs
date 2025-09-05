@@ -1,0 +1,17 @@
+{
+    "name": "pxhjs",
+    "version": "1.0.0",
+    "description": "Framework PXH",
+    "main": "pxh.runtime.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "live-server --port=2910 --open=index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "live-server": "^1.2.2"
+    }
+}

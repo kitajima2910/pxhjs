@@ -4,7 +4,7 @@ pxh[css]:
     }
 
 pxh[html]:
-    <p onclick="message()">Hello, World! - PXH 1</p>
+    <p onclick="message()">Hello, World! - PXH</p>
 
 pxh[js]:
     const message = () => {
